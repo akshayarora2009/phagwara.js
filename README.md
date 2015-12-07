@@ -50,5 +50,19 @@ officialJeha("korKor(dindaa(total,0),",
 );
 ```
 
+### Reference
 
+`korKor` - A basic construct which runs lines of code sequentially. Use it whenever you have to create a `block` of code. It may be noted that there are no block scopes in phagwara.js.
+
+`kiKhapp` - The standard `if` construct. Accepts two arguments - condition and code to be executed if the condition is true.
+
+`jadoTak` - The standard `while` construct. Accepts two arguments - condition and code to be executed while the condition is true.
+
+`dindaa` - Takes two arguments. Assigns the value of second argument to the first argument. First argument must be a variable.
+
+`aaho` - Boolean true
+
+`naLgdaNi` - Boolean false
+
+`dasdaa` - Print a value to the console.
 

@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'c:\\Users\\sony\\WebstormProjects\\Language\\npm',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\sony\AppData\Roaming\npm-cache\phagwarajs\0.0.1\package.tgz not in flight; packing
+9 verbose tar pack [ 'C:\\Users\\sony\\AppData\\Roaming\\npm-cache\\phagwarajs\\0.0.1\\package.tgz',
+9 verbose tar pack   'c:\\Users\\sony\\WebstormProjects\\Language\\npm' ]
+10 verbose tarball C:\Users\sony\AppData\Roaming\npm-cache\phagwarajs\0.0.1\package.tgz
+11 verbose folder c:\Users\sony\WebstormProjects\Language\npm
+12 info prepublish phagwarajs@0.0.1
+13 verbose addLocalTarball adding from inside cache C:\Users\sony\AppData\Roaming\npm-cache\phagwarajs\0.0.1\package.tgz
+14 silly cache afterAdd phagwarajs@0.0.1
+15 verbose afterAdd C:\Users\sony\AppData\Roaming\npm-cache\phagwarajs\0.0.1\package\package.json not in flight; writing
+16 verbose afterAdd C:\Users\sony\AppData\Roaming\npm-cache\phagwarajs\0.0.1\package\package.json written
+17 silly publish { name: 'phagwarajs',
+17 silly publish   description: 'Just-for-fun, interpreted and basic programming language written on top of JavaScript, based on a popular \'dialect\' spoken exclusively by Computer Science class of \'17, PEC University',
+17 silly publish   author:
+17 silly publish    { name: 'Akshay Arora',
+17 silly publish      email: 'akshay9@outlook.com',
+17 silly publish      url: 'http://www.aroraakshay.in' },
+17 silly publish   version: '0.0.1',
+17 silly publish   main: 'index.js',
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'https://github.com/akshayarora2009/phagwara.js.git' },
+17 silly publish   bugs: { url: 'https://github.com/akshayarora2009/phagwara.js/issues' },
+17 silly publish   readme: 'ERROR: No README data found!',
+17 silly publish   homepage: 'https://github.com/akshayarora2009/phagwara.js',
+17 silly publish   _id: 'phagwarajs@0.0.1',
+17 silly publish   scripts: {},
+17 silly publish   _shasum: 'bd3a091c89a248df084d3c108b4d8a7c9b34223b',
+17 silly publish   _from: '.' }
+18 silly mapToRegistry name phagwarajs
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/phagwarajs
+22 verbose publish registryBase https://registry.npmjs.org/
+23 silly publish uploading C:\Users\sony\AppData\Roaming\npm-cache\phagwarajs\0.0.1\package.tgz
+24 verbose request uri https://registry.npmjs.org/phagwarajs
+25 verbose request sending authorization for write operation
+26 info attempt registry request try #1 at 6:15:12 PM
+27 verbose request using bearer token for auth
+28 verbose request id 38893f82f205849a
+29 http request PUT https://registry.npmjs.org/phagwarajs
+30 http 403 https://registry.npmjs.org/phagwarajs
+31 verbose headers { 'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=60',
+31 verbose headers   'content-length': '95',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Mon, 07 Dec 2015 12:45:14 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1449492313.420504,VS0,VE815' }
+32 verbose request invalidating C:\Users\sony\AppData\Roaming\npm-cache\registry.npmjs.org\phagwarajs on PUT
+33 error publish Failed PUT 403
+34 verbose stack Error: "You cannot publish over the previously published version 0.0.1." : phagwarajs
+34 verbose stack     at CachingRegistryClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:247:14)
+34 verbose stack     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+34 verbose stack     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:344:22)
+34 verbose stack     at Request.emit (events.js:110:17)
+34 verbose stack     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1239:14)
+34 verbose stack     at Request.emit (events.js:129:20)
+34 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1187:12)
+34 verbose stack     at IncomingMessage.emit (events.js:129:20)
+34 verbose stack     at _stream_readable.js:908:16
+34 verbose stack     at process._tickCallback (node.js:355:11)
+35 verbose statusCode 403
+36 verbose pkgid phagwarajs
+37 verbose cwd c:\Users\sony\WebstormProjects\Language\npm
+38 error Windows_NT 6.1.7601
+39 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "."
+40 error node v0.12.2
+41 error npm  v2.7.4
+42 error code E403
+43 error "You cannot publish over the previously published version 0.0.1." : phagwarajs
+44 error If you need help, you may report this error at:
+44 error     <https://github.com/npm/npm/issues>
+45 verbose exit [ 1, true ]

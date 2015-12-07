@@ -3,5 +3,9 @@
   "description": "Just-for-fun, interpreted and basic programming language written on top of JavaScript, based on a popular 'dialect' spoken exclusively by Computer Science class of '17, PEC University",
   "author": "Akshay Arora <akshay9@outlook.com> (http://www.aroraakshay.in)",
   "version": "0.0.1",
-  "main": "index.js"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akshayarora2009/phagwara.js.git"
+  }
 }

@@ -10,13 +10,8 @@ The syntax is offered in two flavors - `officialJeha` and `Saukha Kinna`, the fo
 #### Saukha kinna
 
 `korKor(dindaa(total,0)
-
 dindaa(count,1)
-
 jadoTak(<(count,11)
-
 korKor(dindaa(total,+(total,count))
-
 dindaa(count, +(count,1))))
-
 dasdaa(total))`
